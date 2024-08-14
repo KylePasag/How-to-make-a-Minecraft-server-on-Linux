@@ -4,37 +4,37 @@
 > [!IMPORTANT]
 > This script is made specifically for minecraft java edition and Ubuntu distro, using other distros might not work.
 ## Tutorial
-Install java
+Install java:
 ```
 sudo apt update && sudo apt upgrade -y
 sudo apt install default-jre-headless
 ```
-Create a directory 
+Create a directory:
 ```
 mkdir minecraft_server
 cd minecraft_server
 ```
-Install the minecraft server jar file from the [offical minecraft website](https://www.minecraft.net/en-us/download/server)
+Install the minecraft server jar file from the [offical minecraft website:](https://www.minecraft.net/en-us/download/server)
 ```
 wget https://piston-data.mojang.com/v1/objects/59353fb40c36d304f2035d51e7d6e6baa98dc05c/server.jar
 ```
-Open server file
+Open server file:
 ```
 java -Xmx1024M -Xms1024M -jar minecraft_server.1.21.1.jar nogui
 ```
 > [!WARNING]
 > You might need a newer version of java for newer minecraft versions. In that case, you need to install the specific java version by doing sudo apt install openjdk-21-jre-headless.
 
-Accept eula agreement 
+Accept eula agreement:
 ```
 nano eula.txt
 ```
-Change eula=flase to eula=true
+Change eula=flase to eula=true:
 ```
 eula=true
 ```
 Ctrl x + y to save
-Run the server file again
+Run the server file again:
 ```
 java -Xmx1024M -Xms1024M -jar minecraft_server.1.21.1.jar nogui
 ```
