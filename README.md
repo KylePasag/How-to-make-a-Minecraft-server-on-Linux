@@ -23,7 +23,8 @@ Open server file
 java -Xmx1024M -Xms1024M -jar minecraft_server.1.21.1.jar nogui
 ```
 > [!WARNING]
-> You might need a newer version of java for newer minecraft versions. In that case, you need to install the specific java version by doing sudo apt install openjdk-21-jre-headless. >
+> You might need a newer version of java for newer minecraft versions. In that case, you need to install the specific java version by doing sudo apt install openjdk-21-jre-headless.
+
 Accept eula agreement 
 ```
 nano eula.txt
@@ -38,5 +39,6 @@ Run the server file again
 java -Xmx1024M -Xms1024M -jar minecraft_server.1.21.1.jar nogui
 ```
 > [!TIP]
-> You can further increase the memory allocated by changing Xmx and Xms numbers. You can also change the unit of measurement by changing the 'M' (mb) on Xmx1024M to 'G' (gb). This can further increase the performance of the server and decrease latency. >
+> You can further increase the memory allocated by changing Xmx and Xms numbers. You can also change the unit of measurement by changing the 'M' (mb) on Xmx1024M to 'G' (gb). This can further increase the performance of the server and decrease latency.
+
 You're all done!
