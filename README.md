@@ -14,7 +14,7 @@ Create a directory
 mkdir minecraft_server
 cd minecraft_server
 ```
-Install the minecraft server jar file from the [offical minecraft website]([url](https://www.minecraft.net/en-us/download/server)
+Install the minecraft server jar file from the [offical minecraft website](https://www.minecraft.net/en-us/download/server)
 ```
 wget https://piston-data.mojang.com/v1/objects/59353fb40c36d304f2035d51e7d6e6baa98dc05c/server.jar
 ```
