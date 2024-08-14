@@ -30,8 +30,6 @@ nano eula.txt
 ```
 Change eula=flase to eula=true
 ```
-#By changing the setting below to TRUE you are indicating your agreement to our EULA (https://aka.ms/MinecraftEULA).
-#Mon Dec 25 00:49:30 PST 2023
 eula=true
 ```
 Ctrl x + y to save
